@@ -1,0 +1,41 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="text/javascript">
+var elem = document.getElementById("video");
+if (elem.requestFullscreen) {
+  elem.requestFullscreen();
+} else if (elem.msRequestFullscreen) {
+  elem.msRequestFullscreen();
+} else if (elem.mozRequestFullScreen) {
+  elem.mozRequestFullScreen();
+} else if (elem.webkitRequestFullscreen) {
+  elem.webkitRequestFullscreen();
+}
+
+</script>
+<style>
+#video {
+position: fixed;
+right: 0;
+bottom: 0;
+width: auto;
+min-width: 100%;
+height: auto;
+min-height: 100%;
+z-index: -100;
+background-size: cover;
+}
+</style>
+<title>GAME OVER</title>
+<META HTTP-EQUIV="refresh" CONTENT="13;URL=gmo.html">
+</head>
+<body bgcolor="black">
+<video id="video" onload="playVideo()" autoplay>
+<source src="vid/rip.webm" type="video/webm">
+    <source src="vid/rip.mp4" type="video/mp4">
+  <source src="vid/rip.ogg" type="video/ogg">
+  Oh you've done it now.
+</video>
+</body>
+</html>
