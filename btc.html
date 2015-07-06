@@ -11,7 +11,7 @@
 
 <div class="container">
   <h2>Bitcoin Donations</h2>
-  <p>Feel like donating to me? Lucky for you I accept donations via Bitcoin. Simply click the box below!</p>            
+  <p>Feel like donating to me? Lucky for you I accept donations via Bitcoin. Simply click the box below!<br><sup>Litecoin is also available, however, Bitcoin is suggested.</sup></p>            
   <br><center><script src="http://coinwidget.com/widget/coin.js"></script>
 <script>
 CoinWidgetCom.go({
@@ -26,8 +26,22 @@ CoinWidgetCom.go({
 	, lbl_count: "donations"
 	, lbl_amount: "BTC"
 });
+</script><script src="http://coinwidget.com/widget/coin.js"></script>
+<script>
+CoinWidgetCom.go({
+	wallet_address: "LNamA5PqVwWtt1wkBUpU6emKcgHwjpFKJo"
+	, currency: "litecoin"
+	, counter: "hide"
+	, alignment: "bc"
+	, qrcode: true
+	, auto_show: false
+	, lbl_button: "Donate"
+	, lbl_address: "My Litecoin Address:"
+	, lbl_count: "donations"
+	, lbl_amount: "LTC"
+});
 </script></center><br>
-<sub>Please note this is for <b>donations only</b>. If you wish to send me Bitcoin for some other reason please contact me first.</sub>    
+<sub>Please note this is for <b>donations only</b>. If you wish to send me Bitcoin/Litecoin for some other reason please contact me first.</sub>    
 </div>
 
 </body>
