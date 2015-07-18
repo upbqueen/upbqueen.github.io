@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu+Condensed);
+table.main {
+    opacity: 0.75;
+	box-shadow: 7px 7px 5px #888888;
+}
+body {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	background: #d3d3d3 url(sball.png) no-repeat center;
+    background-size: contain;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+}
